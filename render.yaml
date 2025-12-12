@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: rai-bee-backend
+    env: node
+    plan: free
+    buildCommand: "cd backend && npm install"
+    startCommand: "cd backend && node server.js"
+    envVars:
+      - key: JWT_SECRET
+        sync: false
+      - key: ENCRYPTION_KEY
+        sync: false
+  - type: web
+    name: rai-bee-frontend
+    env: static
+    staticPublishPath: frontend/build
+    buildCommand: "cd frontend && npm install && npm run build"
