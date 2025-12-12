@@ -1,0 +1,6 @@
+body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:#0f172a;color:#e6eef8}
+.container{max-width:980px;margin:24px auto;padding:16px}
+.card{background:#0b1220;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+.btn{background:#f97316;color:white;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+input,select{padding:8px;border-radius:8px;border:1px solid #24303f;background:#081225;color:#e6eef8}
+a {color:#f97316;text-decoration:none}
